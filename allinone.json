@@ -42,7 +42,7 @@
     "gituser" : "openshift",
     "branch" : "master",
     "version" : "3.7",
-    "baseTemplateUrl" : "[concat('https://raw.githubusercontent.com/',variables('gituser'),'/openshift-ansible-contrib/',variables('branch'),'/reference-architecture/azure-ansible/',variables('version'),'/')]",
+    "baseTemplateUrl" : "[concat('https://raw.githubusercontent.com/cooktheryan/MicroProfileOnAzure/master/)]",
     "location" : "[resourceGroup().location]",
     "virtualNetworkName" : "openshiftVnet",
     "addressPrefix" : "10.0.0.0/16",
@@ -116,18 +116,6 @@
       },
       "properties" : {
         "accountType" : "[variables('vmSizesMap')[parameters('vmSize')].storageAccountType]"
-      }
-    },
-    {
-      "type" : "Microsoft.Storage/storageAccounts",
-      "name" : "[variables('StorageAccountLoggingMetricsVolumes')]",
-      "apiVersion" : "[variables('apiVersion')]",
-      "location" : "[variables('location')]",
-      "tags" : {
-        "displayName" : "StorageAccountLoggingMetricsVolumes"
-      },
-      "properties" : {
-        "accountType" : "[variables('StorageAccountLoggingMetricsVolumesVolumeType')]"
       }
     },
     {
