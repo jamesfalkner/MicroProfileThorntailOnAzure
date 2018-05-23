@@ -2,7 +2,7 @@
 
 #### Create a Single VM Installation using the Azure Portal
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcooktheryan%2FMicroProfileOnAzure%2master%2Fallinone.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcooktheryan%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
