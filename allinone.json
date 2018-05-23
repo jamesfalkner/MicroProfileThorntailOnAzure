@@ -362,7 +362,12 @@
           }
         },
         "storageProfile" : {
-          "imageReference" : "[variables('rhel')]",
+          "imageReference" : {
+		"publisher": "RedHat",
+		"offer": "RHEL",
+		"sku": "7-RAW",
+		"version": "latest"
+          },
           "osDisk" : {
             "caching" : "ReadWrite",
             "vhd" : {
@@ -370,7 +375,7 @@
             },
             "name" : "osdisk",
             "createOption" : "FromImage",
-            "diskSizeGB" : "192"
+            "diskSizeGB" : "128"
           },
           "dataDisks" : [
             {
@@ -396,7 +401,7 @@
             {
               "caching" : "None",
               "createOption" : "Empty",
-              "diskSizeGB" : "512",
+              "diskSizeGB" : "128",
               "lun" : 2,
               "name" : "datadisk2",
               "vhd" : {
