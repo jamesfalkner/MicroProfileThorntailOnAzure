@@ -58,7 +58,7 @@ new_masters
 
 [OSEv3:vars]
 debug_level=2
-console_port=443
+console_port=8443
 openshift_node_debug_level="{{ node_debug_level | default(debug_level, true) }}"
 openshift_master_debug_level="{{ master_debug_level | default(debug_level, true) }}"
 openshift_master_access_token_max_seconds=2419200
