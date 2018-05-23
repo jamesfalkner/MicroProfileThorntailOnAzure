@@ -21,16 +21,6 @@
         "description" : "SSH RSA public key file as a string."
       }
     },
-    "image" : {
-      "type" : "string",
-      "allowedValues" : [
-        "rhel"
-      ],
-      "defaultValue" : "rhel",
-      "metadata" : {
-        "description" : "OS to use.Red Hat Enterprise Linux"
-      }
-    },
     "vmSize" : {
       "type" : "string",
       "defaultValue" : "Standard_DS4_v3",
