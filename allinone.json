@@ -70,7 +70,6 @@
       "Standard_DS16_v3" : {
         "storageAccountType" : "Premium_LRS"
       }
-    },
     "tenantId" : "[subscription().tenantId]",
     "StorageAccountPersistentVolume" : "[concat('sapv', resourceGroup().name)]",
     "StorageAccountLoggingMetricsVolumes" : "[concat('sapvlm', resourceGroup().name)]",
