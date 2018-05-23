@@ -1,0 +1,2 @@
+# MicroProfileOnAzure
+Instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure
