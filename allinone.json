@@ -41,7 +41,7 @@
     "gituser" : "openshift",
     "branch" : "master",
     "version" : "3.7",
-    "baseTemplateUrl" : "https://raw.githubusercontent.com/cooktheryan/MicroProfileOnAzure/master/",
+    "baseTemplateUrl" : "https://raw.githubusercontent.com/cealsair/MicroProfileOnAzure/master/",
     "location" : "[resourceGroup().location]",
     "virtualNetworkName" : "openshiftVnet",
     "addressPrefix" : "10.0.0.0/16",

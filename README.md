@@ -1,10 +1,16 @@
-# OpenShift Origin on Azure
+= Eclipse MicroProfile on Azure
+
+Congratulations! You have just received your free Azure trial pass to try Eclipse MicroProfile on Azure.
+
+Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure:
+
+Open a browser and navigate to: www.microsoftazurepass.com
 
 #### Create a Single VM Origin deployment using the Azure Portal
 Please ensure that an account has already been configured before clicking the button below.
 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcooktheryan%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcealsair%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
