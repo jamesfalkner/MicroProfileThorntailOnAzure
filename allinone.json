@@ -88,18 +88,6 @@
   "resources" : [
     {
       "type" : "Microsoft.Storage/storageAccounts",
-      "name" : "[variables('StorageAccountPersistentVolume')]",
-      "apiVersion" : "[variables('apiVersion')]",
-      "location" : "[variables('location')]",
-      "tags" : {
-        "displayName" : "StorageAccountPersistentVolume"
-      },
-      "properties" : {
-        "accountType" : "[variables('vmSizesMap')[parameters('vmSize')].storageAccountType]"
-      }
-    },
-    {
-      "type" : "Microsoft.Storage/storageAccounts",
       "name" : "[variables('StorageAccountName')]",
       "apiVersion" : "[variables('apiVersion')]",
       "location" : "[variables('location')]",
