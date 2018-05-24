@@ -25,13 +25,12 @@
       "type" : "string",
       "defaultValue" : "Standard_DS4_v3",
       "allowedValues" : [
+        "Standard_D4_v3",
+        "Standard_D8_v3",
         "Standard_DS4_v2",
         "Standard_DS4_v3",
         "Standard_DS8_v3",
-        "Standard_DS16_v3",
-        "Standard_D4_v3",
-        "Standard_D8_v3",
-        "Standard_D16_v3"
+        "Standard_DS16_v3"
       ],
       "metadata" : {
         "description" : "The size of the Virtual Machine."
@@ -56,6 +55,12 @@
     },
     "baseVMachineTemplateUriOneVm" : "[concat(variables('baseTemplateUrl'), 'onevm.json')]",
     "vmSizesMap" : {
+        "storageAccountType" : "Premium_LRS"
+      },
+      "Standard_D4_v3" : {
+        "storageAccountType" : "Premium_LRS"
+      },
+      "Standard_D8_v3" : {
         "storageAccountType" : "Premium_LRS"
       },
       "Standard_DS4_v2" : {

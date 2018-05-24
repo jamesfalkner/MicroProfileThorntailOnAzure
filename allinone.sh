@@ -10,6 +10,8 @@ export MYARGS=$@
 IFS=' ' read -r -a array <<< "$MYARGS"
 export RESOURCEGROUP=$1
 export WILDCARDZONE=$2
+export AUSERNAME=$3
+export PASSWORD=$4
 export THEHOSTNAME=$5
 export ROUTEREXTIP=$7
 export SSHPRIVATEDATA=${11}
@@ -36,27 +38,16 @@ domain=$(grep search /etc/resolv.conf | awk '{print $2}')
 ps -ef | grep allinone.sh > cmdline.out
 
 swapoff -a
-
+htpasswd -c -b /etc/origin/master/htpasswd ${AUSERNAME} ${PASSWORD}
 yum install -y wget git net-tools bind-utils yum-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct
 yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sed -i -e "s/^enabled=1/enabled=0/" /etc/yum.repos.d/epel.repo
 yum -y --enablerepo=epel install ansible pyOpenSSL
-cd ~
+cd /usr/share/ansible/
 git clone https://github.com/openshift/openshift-ansible
 cd openshift-ansible
 git checkout release-3.9
-yum install docker-1.13.1
-
-echo "DEVS=${DOCKERVG}" >> /etc/sysconfig/docker-storage-setup
-cat <<EOF > /etc/sysconfig/docker-storage-setup
-DEVS=$DOCKERVG
-VG=docker_vol
-DATA_SIZE=95%VG
-STORAGE_DRIVER=overlay2
-CONTAINER_ROOT_LV_NAME=dockerlv
-CONTAINER_ROOT_LV_MOUNT_PATH=/var/lib/docker
-CONTAINER_ROOT_LV_SIZE=100%FREE
-EOF
+chmod 755 -R /usr/share/ansible/openshift-ansible
 
 cat <<EOF > /etc/ansible/hosts
 [OSEv3:children]
@@ -72,19 +63,17 @@ openshift_master_debug_level="{{ master_debug_level | default(debug_level, true)
 openshift_master_access_token_max_seconds=2419200
 openshift_hosted_router_replicas=1
 openshift_hosted_registry_replicas=1
-openshift_master_api_port="{{ console_port }}"
-openshift_master_console_port="{{ console_port }}"
+openshift_master_api_port=8443
+openshift_master_console_port=8443
 openshift_override_hostname_check=true
 azure_resource_group=${RESOURCEGROUP}
 deployment_type=origin
-ansible_become=yes
-ansible_ssh_user=${AUSERNAME}
-remote_user=${AUSERNAME}
-
+ansible_become=true
+openshift_disable_check=memory_availability,disk_availability,docker_storage,package_version,docker_image_availability,package_availability
 openshift_master_default_subdomain=${WILDCARDNIP}
 osm_default_subdomain=${WILDCARDNIP}
 openshift_public_hostname=${RESOURCEGROUP}.${FULLDOMAIN}
-
+container_runtime_docker_storage_setup_device=/dev/sdc
 openshift_master_cluster_hostname=${RESOURCEGROUP}.${FULLDOMAIN}
 openshift_master_cluster_public_hostname=${RESOURCEGROUP}.${FULLDOMAIN}
 
@@ -97,11 +86,15 @@ openshift_logging_install_logging=false
 openshift_logging_use_ops=false
 
 [masters]
-${RESOURCEGROUP} openshift_hostname=${RESOURCEGROUP}
+${RESOURCEGROUP} openshift_hostname=${RESOURCEGROUP} ansible_connection=local
 
 [etcd]
-${RESOURCEGROUP}
+${RESOURCEGROUP} ansible_connection=local
 
 [nodes]
-${RESOURCEGROUP} openshift_hostname=${RESOURCEGROUP} openshift_node_labels="{'role':'master','region':'app','region': 'infra'}" openshift_schedulable=true
+${RESOURCEGROUP} openshift_hostname=${RESOURCEGROUP} openshift_node_labels="{'role':'master','region':'app','region': 'infra'}" openshift_schedulable=true ansible_connection=local
 EOF
+
+
+ansible-playbook -i /etc/ansible/hosts /usr/share/ansible/openshift-ansible/playbooks/prerequisites.yml
+ansible-playbook -i /etc/ansible/hosts /usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.yml
