@@ -316,6 +316,10 @@
       "type" : "string",
       "value" : "[concat('ssh ', parameters('adminUsername'), '@', reference(variables('publicIPAddressName')).dnsSettings.fqdn)]"
     },
+    "OriginConsole" : {
+      "type" : "string",
+      "value" : "[concat('https://', reference(variables('publicIPAddressName')).dnsSettings.fqdn)]"
+    },
     "publicIP" : {
       "type" : "string",
       "value" : "[reference('onevmPublicIP').ipAddress]"
