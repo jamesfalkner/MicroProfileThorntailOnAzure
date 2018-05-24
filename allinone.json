@@ -70,12 +70,6 @@
       "Standard_DS16_v3" : {
         "storageAccountType" : "Premium_LRS"
       },
-    "tenantId" : "[subscription().tenantId]",
-    "StorageAccountPersistentVolume" : "[concat('sapv', resourceGroup().name)]",
-    "StorageAccountLoggingMetricsVolumes" : "[concat('sapvlm', resourceGroup().name)]",
-    "registryStorageName" : "[concat('sareg', resourceGroup().name)]",
-    "subscriptionId" : "[subscription().subscriptionId]",
-    "StorageAccountLoggingMetricsVolumesVolumeType" : "Premium_LRS",
     "apiVersion" : "2015-06-15",
     "apiVersionCompute" : "2015-06-15",
     "apiVersionNetwork" : "2016-03-30",
@@ -89,8 +83,7 @@
     "subnetRef" : "[concat(variables('vnetID'),'/subnets/',variables('virtualNetworkName'))]",
     "sshKeyPath" : "[concat('/home/',parameters('adminUsername'),'/.ssh/authorized_keys')]",
     "publicIpRef" : "[concat('Microsoft.Network/publicIPAddresses/',variables('publicIPAddressName'))]",
-    "sQuote" : "\"",
-    "rhsmmode" : "[parameters('rhsmUsernamePasswordOrActivationKey')]"
+    "sQuote" : "\""
   },
   "resources" : [
     {
