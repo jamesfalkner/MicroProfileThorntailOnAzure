@@ -318,7 +318,7 @@
     },
     "OriginConsole" : {
       "type" : "string",
-      "value" : "[concat('https://', reference(variables('publicIPAddressName')).dnsSettings.fqdn)]"
+      "value" : "[concat('https://', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ':8443')]"
     },
     "publicIP" : {
       "type" : "string",
