@@ -97,3 +97,14 @@ ${RESOURCEGROUP}
 [nodes]
 ${RESOURCEGROUP} openshift_hostname=${RESOURCEGROUP} openshift_node_labels="{'role':'master','region':'app','region': 'infra'}" openshift_schedulable=true
 EOF
+
+yum install -y wget git net-tools bind-utils yum-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct
+yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sed -i -e "s/^enabled=1/enabled=0/" /etc/yum.repos.d/epel.repo
+yum -y --enablerepo=epel install ansible pyOpenSSL
+cd ~
+git clone https://github.com/openshift/openshift-ansible
+cd openshift-ansible
+git checkout release-3.9
+yum install docker-1.13.1
+

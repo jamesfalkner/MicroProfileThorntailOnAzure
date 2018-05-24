@@ -76,7 +76,6 @@
     "tmApiVersion" : "2015-11-01",
     "apiVersionStorage" : "2015-06-15",
     "apiVersionLinkTemplate" : "2015-01-01",
-    "StorageAccountName" : "[concat('samas', resourceGroup().name)]",
     "nicName" : "OneVmNic",
     "publicIPAddressName" : "onevmPublicIP",
     "publicIPAddressType" : "Dynamic",
@@ -87,24 +86,11 @@
   },
   "resources" : [
     {
-      "type" : "Microsoft.Storage/storageAccounts",
-      "name" : "[variables('StorageAccountName')]",
-      "apiVersion" : "[variables('apiVersion')]",
-      "location" : "[variables('location')]",
-      "tags" : {
-        "displayName" : "StorageAccount"
-      },
-      "properties" : {
-        "accountType" : "[variables('vmSizesMap')[parameters('vmSize')].storageAccountType]"
-      }
-    },
-    {
       "apiVersion" : "2017-03-30",
       "type" : "Microsoft.Compute/virtualMachines",
       "name" : "[resourceGroup().name]",
       "location" : "[resourceGroup().location]",
       "dependsOn" : [
-        "[resourceId('Microsoft.Storage/storageAccounts/', variables('StorageAccountName'))]",
         "[resourceId('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
       ],
       "properties" : {
@@ -136,9 +122,6 @@
           },
           "osDisk" : {
             "caching" : "ReadWrite",
-            "vhd" : {
-              "uri" : "[concat('http://', variables('StorageAccountName'), '.blob.core.windows.net/openshiftvmachines/', resourceGroup().name, '.vhd')]"
-            },
             "name" : "osdisk",
             "createOption" : "FromImage",
             "diskSizeGB" : "128"
@@ -149,30 +132,21 @@
               "createOption" : "Empty",
               "diskSizeGB" : "128",
               "lun" : 0,
-              "name" : "datadisk0",
-              "vhd" : {
-                "uri" : "[concat('http://', variables('StorageAccountName'), '.blob.core.windows.net/openshiftvmachines/', resourceGroup().name, '_datadisk0.vhd')]"
-              }
+              "name" : "datadisk0"
             },
             {
               "caching" : "None",
               "createOption" : "Empty",
               "diskSizeGB" : "128",
               "lun" : 1,
-              "name" : "datadisk1",
-              "vhd" : {
-                "uri" : "[concat('http://', variables('StorageAccountName'), '.blob.core.windows.net/openshiftvmachines/', resourceGroup().name, '_datadisk1.vhd')]"
-              }
+              "name" : "datadisk1"
             },
             {
               "caching" : "None",
               "createOption" : "Empty",
               "diskSizeGB" : "128",
               "lun" : 2,
-              "name" : "datadisk2",
-              "vhd" : {
-                "uri" : "[concat('http://', variables('StorageAccountName'), '.blob.core.windows.net/openshiftvmachines/', resourceGroup().name, '_datadisk2.vhd')]"
-              }
+              "name" : "datadisk2"
             }
           ]
         },
@@ -183,12 +157,6 @@
             }
           ]
         },
-        "diagnosticsProfile" : {
-          "bootDiagnostics" : {
-            "enabled" : "false",
-            "storageUri" : "[concat(reference(concat('Microsoft.Storage/storageAccounts/', variables('storageAccountName')), '2016-01-01').primaryEndpoints.blob)]"
-          }
-        }
       }
     },
     {
@@ -275,7 +243,7 @@
           ]
         },
         "protectedSettings" : {
-          "commandToExecute" : "[ concat('bash allinone.sh ', resourceGroup().name, ' ', resourceGroup().name, ' ',  parameters('adminUsername'), ' ', parameters('adminPassword'), ' ', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ' ', '0', ' ', reference('onevmPublicIP').ipAddress, ' ', parameters('sshKeyData']"
+          "commandToExecute" : "[ concat('bash allinone.sh ', resourceGroup().name, ' ', resourceGroup().name, ' ',  parameters('adminUsername'), ' ', parameters('adminPassword'), ' ', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ' ', '0', ' ', reference('onevmPublicIP').ipAddress, variables('sQuote'), parameters('sshKeyData'), variables('sQuote'))]"
         }
       }
     },
