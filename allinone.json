@@ -145,13 +145,6 @@
               "diskSizeGB" : "128",
               "lun" : 1,
               "name" : "datadisk1"
-            },
-            {
-              "caching" : "None",
-              "createOption" : "Empty",
-              "diskSizeGB" : "128",
-              "lun" : 2,
-              "name" : "datadisk2"
             }
           ]
         },
