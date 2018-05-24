@@ -77,6 +77,7 @@ openshift_public_hostname=${RESOURCEGROUP}.${FULLDOMAIN}
 container_runtime_docker_storage_setup_device=/dev/sdc
 openshift_master_cluster_hostname=${RESOURCEGROUP}.${FULLDOMAIN}
 openshift_master_cluster_public_hostname=${RESOURCEGROUP}.${FULLDOMAIN}
+openshift_enable_service_catalog=false
 
 # Do not install metrics but post install
 openshift_metrics_install_metrics=false
