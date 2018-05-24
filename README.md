@@ -12,7 +12,7 @@ Please ensure that an account has already been configured before clicking the bu
 
 This template deploys Origin on Azure.
 
-![Architecture](images/parameters.jpg)
+![Console](images/parameters.png)
 
 
 #### Subscription
