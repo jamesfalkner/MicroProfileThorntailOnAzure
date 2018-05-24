@@ -32,9 +32,10 @@ Supply a password which will be used for the Origin web console.
 
 
 #### Ssh Key Data
-You will need a SSH RSA key for access if one currently does not exist on your system.
+You will need a SSH RSA public key for access if one currently does not exist on your system. Please supply your Public SSH key only. 
+For example, in linux the key can be located at ~/.ssh/id_rsa.pub
 
-## SSH Key Generation
+##### SSH Key Generation (Optiona)
 
 1. [Windows](ssh_windows.md)
 2. [Linux](ssh_linux.md)
@@ -49,8 +50,9 @@ Once all of these values are set, then check the box to Agree to the teams and c
 #### Deployment
 A notification will pop up in the top right notifying you of the deployment. Click the notifications icon and then click "Deployment in progress...". The deployment will take 15-20 minutes. Once completed select outputs to recieve the URL of the Origin console and SSH information.
 
-Thanks to:
-Daniel Falkner - Microsoft Germany - For original templates.
+
+#### Thanks to the following individuals for the base template:
+Daniel Falkner
 Glenn West
-Harold Wong <Harold.Wong@microsoft.com> for his great support.
+Harold Wong
 Ivan McKinley
