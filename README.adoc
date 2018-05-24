@@ -2,4 +2,4 @@
 
 Instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure
 
-Open a browser and navigate to: www.microsoftazurepass.com
+1. Open a browser and navigate to: www.microsoftazurepass.com
