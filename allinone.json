@@ -88,18 +88,6 @@
   "resources" : [
     {
       "type" : "Microsoft.Storage/storageAccounts",
-      "name" : "[variables('registryStorageName')]",
-      "apiVersion" : "[variables('apiVersion')]",
-      "location" : "[variables('location')]",
-      "tags" : {
-        "displayName" : "StorageAccount"
-      },
-      "properties" : {
-        "accountType" : "['Standard_RAGRS']"
-      }
-    },
-    {
-      "type" : "Microsoft.Storage/storageAccounts",
       "name" : "[variables('StorageAccountPersistentVolume')]",
       "apiVersion" : "[variables('apiVersion')]",
       "location" : "[variables('location')]",
