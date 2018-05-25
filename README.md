@@ -4,7 +4,37 @@ Congratulations! You have just received your free Azure trial pass to try Eclips
 
 Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure:
 
-1. Open a browser and navigate to: www.microsoftazurepass.com
+1. Open a browser and navigate to: www.microsoftazurepass.com and click on the "Start" button
+
+![redeem-1](images/1_RedeemFreeAzureCreditsStart.png)
+
+2. On the following screen, enter your Microsoft account credential, e.g. hotmail email or LinkedIn email:
+
+![redeem-2](images/2_RedeemMSLogin.png)
+
+3. Then enter your corresponding password:
+
+![redeem-3](images/3_RedeemEnterPass.png)
+
+4. If the next "Updating Terms" screen is displayed, just click on the "Next" button:
+
+![redeem-4](images/4_RedeemUpdatingTerms.png)
+
+5. Then click on the button for your preference to stay signed in or not:
+
+![redeem-5](images/5_RedeemStaySignedIn.png)
+
+6. On this screen, click on the "Confirm Microsoft account" button
+
+![redeem-6](images/6_RedeemConfirmMSacct.png)
+
+7. Enter your Promo Code from your coupon and click on "Claim your Promo Code" button:
+
+![redeem-7](images/7_RedeemEnterPromoCode.png)
+
+8. Once your coupon number is accepted, click on the "Activate" button:
+
+![redeem-8](images/8_RedeemThankYouAndActivate.png)
 
 #### Create a Single VM Origin deployment using the Azure Portal
 Please ensure that an account has already been configured before clicking the button below.
