@@ -42,7 +42,7 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/9_RedeemProcessingYourReq.png" width="500">
 
-10. In the Azure Pass Agreement screen, check the "I Agree" checkbox and click on "Sign Up" button
+10. When the activation process completes, you will see the Azure Pass Agreement screen. Check the "I Agree" checkbox and click on "Sign Up" button
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/10_RedeemAzurePassAgree.png" width="500">
 
