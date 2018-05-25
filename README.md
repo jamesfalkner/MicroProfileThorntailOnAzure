@@ -8,7 +8,7 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 1. Open a browser and navigate to: www.microsoftazurepass.com and click on the "Start" button
 
-![redeem-1](images/1_RedeemFreeAzureCreditsStart.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/1_RedeemFreeAzureCreditsStart.png" width="500">
 
 2. On the following screen, enter your Microsoft account credential, e.g. hotmail email or Skype email or LinkedIn email:
 
