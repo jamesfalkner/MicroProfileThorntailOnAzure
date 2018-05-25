@@ -1,5 +1,7 @@
 # Eclipse MicroProfile (WildFly Swarm) on Azure
 
+**NOTE: Use Chrome or Firefox for the instructions below. They will not work with Safari**
+
 Congratulations! You have just received your free Azure trial pass to try Eclipse MicroProfile on Azure.
 
 Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure:
