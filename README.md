@@ -1,4 +1,4 @@
-= Eclipse MicroProfile on Azure
+# Eclipse MicroProfile on Azure
 
 Congratulations! You have just received your free Azure trial pass to try Eclipse MicroProfile on Azure.
 
