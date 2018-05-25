@@ -8,7 +8,7 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 ![redeem-1](images/1_RedeemFreeAzureCreditsStart.png)
 
-2. On the following screen, enter your Microsoft account credential, e.g. hotmail email or LinkedIn email:
+2. On the following screen, enter your Microsoft account credential, e.g. hotmail email or Skype email or LinkedIn email:
 
 ![redeem-2](images/2_RedeemMSLogin.png)
 
