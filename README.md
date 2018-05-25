@@ -36,6 +36,7 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 ![redeem-8](images/8_RedeemThankYouAndActivate.png)
 
+9. Follow these sub-steps to create an all-in-one OpenShift Origin cluster:
 #### Create a Single VM Origin deployment using the Azure Portal
 Please ensure that an account has already been configured before clicking the button below.
 
@@ -46,7 +47,7 @@ Please ensure that an account has already been configured before clicking the bu
 
 ------
 
-This template deploys Origin on Azure.
+This template deploys OpenShift Origin on Azure.
 
 ![Console](images/parameters.png)
 
@@ -55,21 +56,20 @@ This template deploys Origin on Azure.
 Accept the default subscription ID value.
 
 #### Resource Group
-Select create a new resource group if one does not currently exist.
+Select "create new" resource group if one does not currently exist.
 
 #### Location
-The geographic location in which to deploy Origin.
+The geographic location in which to deploy OpenShift Origin.
 
 #### Admin User
-Supply a username which will be used for both SSH access and for the Origin web console.
+Supply a username which will be used for both SSH access and for the OpenShift Origin web console.
 
 #### Admin Password
 Supply a password which will be used for the Origin web console.
 
-
 #### Ssh Key Data
 You will need a SSH RSA public key for access if one currently does not exist on your system. Please supply your Public SSH key only. 
-For example, in linux the key can be located at ~/.ssh/id_rsa.pub
+For example, in Linux the key can be located at ~/.ssh/id_rsa.pub
 
 ##### SSH Key Generation (Optiona)
 
@@ -77,15 +77,15 @@ For example, in linux the key can be located at ~/.ssh/id_rsa.pub
 2. [Linux](ssh_linux.md)
 3. [Mac](ssh_mac.md)
 
-
 #### Vm Size
 Specify a VM size. A default value is provided. If another size or type of vm is required ensure that the Location contains that instance type.
 
-Once all of these values are set, then check the box to Agree to the teams and conditions and then click the Purchase button.
+Once all of these values are set, then check the box to "Agree to the terms and conditions" and then click the Purchase button.
 
 #### Deployment
-A notification will pop up in the top right notifying you of the deployment. Click the notifications icon and then click "Deployment in progress...". The deployment will take 15-20 minutes. Once completed select outputs to recieve the URL of the Origin console and SSH information.
+A notification will pop up in the top right notifying you of the deployment. Click the notifications icon and then click "Deployment in progress...". The deployment will take 15-20 minutes. Once completed select "outputs to receive" the URL of the Origin console and SSH information.
 
+![OutputsToReceive](images/outputs.png)
 
 #### Thanks to the following individuals for the base template:
 Daniel Falkner
