@@ -85,7 +85,7 @@ Supply a password which will be used for the Origin web console.
 You will need a SSH RSA public key for access if one currently does not exist on your system. Please supply your Public SSH key only. 
 For example, in Linux the key can be located at ~/.ssh/id_rsa.pub
 
-##### SSH Key Generation (Optiona)
+##### SSH Key Generation (Optional)
 
 1. [Windows](ssh_windows.md)
 2. [Linux](ssh_linux.md)
