@@ -4,7 +4,7 @@ Congratulations! You have just received your free Azure trial pass to try Eclips
 
 Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure:
 
-Open a browser and navigate to: www.microsoftazurepass.com
+1. Open a browser and navigate to: www.microsoftazurepass.com
 
 #### Create a Single VM Origin deployment using the Azure Portal
 Please ensure that an account has already been configured before clicking the button below.
