@@ -16,27 +16,27 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 3. Then enter your corresponding password:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/3_RedeemEnterPass.png width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/3_RedeemEnterPass.png" width="500">
 
 4. If the next "Updating Terms" screen is displayed, just click on the "Next" button:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/4_RedeemUpdatingTerms.png width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/4_RedeemUpdatingTerms.png" width="500">
 
 5. Then click on the button for your preference to stay signed in or not:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/5_RedeemStaySignedIn.png width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/5_RedeemStaySignedIn.png" width="500">
 
 6. On this screen, click on the "Confirm Microsoft account" button
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/6_RedeemConfirmMSacct.png width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/6_RedeemConfirmMSacct.png" width="500">
 
 7. Enter your Promo Code from your coupon and click on "Claim your Promo Code" button:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/7_RedeemEnterPromoCode.png width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/7_RedeemEnterPromoCode.png" width="500">
 
 8. Once your coupon number is accepted, click on the "Activate" button:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png" width="500">
 
 9. Follow these sub-steps to create an all-in-one OpenShift Origin cluster:
 #### Create a Single VM Origin deployment using the Azure Portal
