@@ -55,7 +55,7 @@ This template deploys OpenShift Origin on Azure.
 
 
 #### Subscription
-Accept the default subscription ID value.
+Accept the default subscription ID value. Note: this field is not shown in the picture above.
 
 #### Resource Group
 Select "create new" resource group if one does not currently exist.
