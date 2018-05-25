@@ -14,7 +14,7 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/2_RedeemMSLogin.png" width="300">
 
-3. Then enter your corresponding password:
+3. Then enter your corresponding password. If this is your personal computer, I strongly recommend you click on "Keep me signed in":
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/3_RedeemEnterPass.png" width="300">
 
@@ -22,7 +22,7 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/4_RedeemUpdatingTerms.png" width="300">
 
-5. Then click on the button for your preference to stay signed in or not:
+5. Then click on the "Yes" button in the "Stay signed in?" dialog:
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/5_RedeemStaySignedIn.png" width="300">
 
