@@ -83,7 +83,7 @@ Specify a VM size. A default value is provided. If another size or type of vm is
 Once all of these values are set, then check the box to "Agree to the terms and conditions" and then click the Purchase button.
 
 #### Deployment
-A notification will pop up in the top right notifying you of the deployment. Click the notifications icon and then click "Deployment in progress...". The deployment will take 15-20 minutes. Once completed select "outputs to receive" the URL of the Origin console and SSH information.
+A notification will pop up in the top right notifying you of the deployment. Click the notifications icon and then click "Deployment in progress...". The deployment will take 15-20 minutes. Once completed select "Outputs" to receive the URL of the OpenShift Origin console and SSH information.
 
 ![OutputsToReceive](images/outputs.png)
 
