@@ -30,11 +30,11 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/6_RedeemConfirmMSacct.png" width="500">
 
-7. Enter your Promo Code from your coupon and click on "Claim your Promo Code" button:
+7. Enter your Promo Code from your Azure trial pass and click on "Claim your Promo Code" button:
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/7_RedeemEnterPromoCode.png" width="500">
 
-8. Once your coupon number is accepted, click on the "Activate" button:
+8. Once your Azure trial pass Promo Code is accepted, click on the "Activate" button:
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png" width="500">
 
