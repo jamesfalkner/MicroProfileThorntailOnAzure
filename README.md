@@ -38,7 +38,19 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png" width="500">
 
-9. Follow these sub-steps to create an all-in-one OpenShift Origin cluster:
+9. The activation process will display the following screen:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/9_RedeemProcessingYourReq.png" width="500">
+
+10. In the Azure Pass Agreement screen, check the "I Agree" checkbox and click on "Sign Up" button
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/10_RedeemAzurePassAgree.png" width="500">
+
+11. Once your sign-up is processed, you will be re-directed to your Azure Portal:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/11_ReedeemAzurePortal.png" width="500">
+
+12. Follow these sub-steps to create an all-in-one OpenShift Origin cluster:
 #### Create a Single VM Origin deployment using the Azure Portal
 Please ensure that an account has already been configured before clicking the button below.
 
