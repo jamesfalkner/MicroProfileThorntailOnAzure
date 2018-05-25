@@ -12,31 +12,31 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 2. On the following screen, enter your Microsoft account credential, e.g. hotmail email or Skype email or LinkedIn email:
 
-![redeem-2](images/2_RedeemMSLogin.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/2_RedeemMSLogin.png" width="500">
 
 3. Then enter your corresponding password:
 
-![redeem-3](images/3_RedeemEnterPass.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/3_RedeemEnterPass.png width="500">
 
 4. If the next "Updating Terms" screen is displayed, just click on the "Next" button:
 
-![redeem-4](images/4_RedeemUpdatingTerms.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/4_RedeemUpdatingTerms.png width="500">
 
 5. Then click on the button for your preference to stay signed in or not:
 
-![redeem-5](images/5_RedeemStaySignedIn.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/5_RedeemStaySignedIn.png width="500">
 
 6. On this screen, click on the "Confirm Microsoft account" button
 
-![redeem-6](images/6_RedeemConfirmMSacct.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/6_RedeemConfirmMSacct.png width="500">
 
 7. Enter your Promo Code from your coupon and click on "Claim your Promo Code" button:
 
-![redeem-7](images/7_RedeemEnterPromoCode.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/7_RedeemEnterPromoCode.png width="500">
 
 8. Once your coupon number is accepted, click on the "Activate" button:
 
-![redeem-8](images/8_RedeemThankYouAndActivate.png)
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png width="500">
 
 9. Follow these sub-steps to create an all-in-one OpenShift Origin cluster:
 #### Create a Single VM Origin deployment using the Azure Portal
