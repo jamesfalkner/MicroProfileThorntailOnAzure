@@ -60,9 +60,7 @@ C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the Wil
 
 # B. Instantiating an all-in-one OpenShift Origin cluster on Azure
 
-#### Create a Single VM OpenShift Origin deployment using the Azure Portal
-Please ensure that an account has already been configured before clicking the button below.
-
+1. Create a Single VM OpenShift Origin deployment using the Azure Portal
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcealsair%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
@@ -105,11 +103,35 @@ Specify a VM size. A default value is provided. If another size or type of vm is
 
 Once all of these values are set, then check the box to "Agree to the terms and conditions" and then click the Purchase button.
 
-#### Deployment
-A notification will pop up in the top right notifying you of the deployment. Click the notifications icon and then click "Deployment in progress...". The deployment will take 15-20 minutes. Once completed select "Outputs" to receive the URL of the OpenShift Origin console and SSH information.
+**Acknowledgements: Thanks to the following individuals for the base template: Daniel Falkner, Glenn West, Harold Wong, and Ivan McKinley**
 
-![OutputsToReceive](images/outputs.png)
+2. Deploy OpenShift Origin template to Azure
+A notification will pop up in the top right notifying you of the deployment:
 
-**NOTE: Thanks to the following individuals for the base template: Daniel Falkner, Glenn West, Harold Wong, and Ivan McKinley**
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/12_OriginDeployInProgress.png" width="500">
+
+The deployment will take 15-20 minutes. Once completed, the notification will display:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/13_DeploySucceeded.png" width="500">
+
+Click on "Go to resource group" button in the notification above to open up the window for the origin resource group (or you can also click on the "Resource groups" under "Favorites" on the leftmost vertical Azure portal menu, and then click on "origin" to open the origin resource group). You will see the following:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/14_OriginResourceGroup.png" width="500">
+
+On the top right of the origin resource group window, you will see a heading "Deployments".  Click on "1 Succeeded" under this heading to see the deployments:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/15_OriginDeployments.png" width="500">
+
+Now, click on the "Microsoft.Template" link to display the contents of the template.  Then click on the "Outputs" to see the URL of the OpenShift Origin console:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/16_OriginOutputs.png" width="500">
+
+At this point, copy the string from the "ORIGINCONSOLE" field, open a browser window and paste the string in the Address field. If your browser warns you about the site being insecure, go ahead and continue to the insecure site.  At this point, you should see the login prompt to log in to the all-in-one OpenShift Origin cluster:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/17_OpenShiftConsoleLogin" width="500">
+
+For Username and Password, the "Admin User" and "Admin Password" you supplied in the template above. Click on "Log In" and you should see:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/18_OpenShiftConsole" width="500">
 
 # C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
