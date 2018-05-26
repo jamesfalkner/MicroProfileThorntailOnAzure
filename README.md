@@ -4,13 +4,15 @@
 
 Congratulations! You have just received your free Azure trial pass to try Eclipse MicroProfile on Azure.
 
-These instructions are grouped in three main sections:
+These instructions are grouped in four sections:
 
 A. Redeeming your Azure Pass
 
 B. Instantiating an all-in-one OpenShift Origin cluster on Azure
 
-C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
+C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project
+
+D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
 
 # A. Redeeming your Azure Pass
 
@@ -135,3 +137,5 @@ For Username and Password, the "Admin User" and "Admin Password" you supplied in
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/18_OpenShiftConsole.png" width="800">
 
 # C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
+
+# D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
