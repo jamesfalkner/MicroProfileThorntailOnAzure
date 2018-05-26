@@ -10,7 +10,7 @@ These instructions are grouped in four sections:
 
 [**B. Instantiating an all-in-one OpenShift Origin cluster on Azure**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#b-instantiating-an-all-in-one-openshift-origin-cluster-on-azure)
 
-**C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project**
+[**C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#c-using-the-red-hat-openshift-application-runtimes-launcher-to-generate-the-wildfly-swarm-sample-project)
 
 **D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure**
 
