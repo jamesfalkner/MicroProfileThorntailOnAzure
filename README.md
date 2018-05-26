@@ -6,7 +6,7 @@ Congratulations! You have just received your free Azure trial pass to try Eclips
 
 These instructions are grouped in four sections:
 
-**A. Redeeming your Azure Pass**
+[**A. Redeeming your Azure Pass**](#A-redeeming-your-Azure-Pass)
 
 **B. Instantiating an all-in-one OpenShift Origin cluster on Azure**
 
