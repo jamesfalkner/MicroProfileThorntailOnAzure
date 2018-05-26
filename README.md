@@ -12,7 +12,7 @@ These instructions are grouped in four sections:
 
 [**C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#c-using-the-red-hat-openshift-application-runtimes-launcher-to-generate-the-wildfly-swarm-sample-project)
 
-**D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure**
+[**D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#d-deploying-sample-project-to-all-in-one-openshift-origin-cluster-on-azure)
 
 # A. Redeeming your Azure Pass
 
