@@ -6,13 +6,13 @@ Congratulations! You have just received your free Azure trial pass to try Eclips
 
 These instructions are grouped in four sections:
 
-A. Redeeming your Azure Pass
+**A. Redeeming your Azure Pass**
 
-B. Instantiating an all-in-one OpenShift Origin cluster on Azure
+**B. Instantiating an all-in-one OpenShift Origin cluster on Azure**
 
-C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project
+**C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project**
 
-D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
+**D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure**
 
 # A. Redeeming your Azure Pass
 
