@@ -208,4 +208,13 @@ You have completed your first "REST API Level 0" mission and created and downloa
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/34_GreetingSvcInvoked.png" width="800">
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/35_ServerConnInterrupted.png" width="400">
+# Conclusion
+
+Congratulations! You have successfully used the Red Hat OpenShift Application Runtimes Launcher to create a sample WildFly Swarm project, which you then deployed to an all-in-one OpenShift Origin cluster running on Azure.
+
+If you would like to inspect the project source code, please use an IDE of your choosing, e.g. Eclipse, IntelliJ, and open the project, which, in the example above, is located at directory ${HOME}/Downloads/booster-rest-http-wildfly-swarm.
+
+Lastly, to learn more, go to:
+[Red Hat OpenShift Application Runtimes](https://developers.redhat.com/products/rhoar/overview/)
+[WildFly Swarm/Thortail](http://wildfly-swarm.io/)
+[Azure](https://azure.microsoft.com/en-us/)
