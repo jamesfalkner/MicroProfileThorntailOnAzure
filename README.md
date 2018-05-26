@@ -138,4 +138,32 @@ For Username and Password, the "Admin User" and "Admin Password" you supplied in
 
 # C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
 
+1. Go to https://developers.redhat.com/launch
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/19_LauncherLanding.png" width="800">
+
+2. Click on "LAUNCH YOUR PROJECT" button to launch a mission 
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/20_MissionScreen.png" width="800">
+
+3. At this point, if not already logged in, you need to click on the "Log In or Register" button. Enter your valid credentials as indicated on window and click on "LOG IN" button (if you don't have an account, click on "Create one now". Once you create your account, return to this window and log in with your newly created credentials)
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/21_MissionLogin.png" width="800">
+
+4. On this next screen, click on "I will build and run locally"
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/22_MissionBuildAndRunLocally.png" width="800">
+
+5. In the missions screen, scroll down until you see the mission "REST API Level 0". Check on the "REST API Level 0" mission and click on the "Next" button
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/23_MissionRESTAPI.png" width="800">
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/24_MissionSelectBooster.png" width="800">
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/25_MissionProjInfo.png" width="800">
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/26_MissionDownloadZIP.png" width="800">
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/27_MissionNextSteps.png" width="800">
+
 # D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
