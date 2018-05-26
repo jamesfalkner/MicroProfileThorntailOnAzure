@@ -165,14 +165,15 @@ For Username and Password, the "Admin User" and "Admin Password" you supplied in
 7. In the "Project Info" window, accept all the defaults and click on the "Next" button
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/25_MissionProjInfo.png" width="800">
-8. In the Review window, click on the "Download as ZIP File" button.  This will download a ZIP file named "booster-rest-http-wildfly-swarm.zip" to your Downloads directory on your laptop/desktop.
+8. In the Review window, click on the "Download as ZIP File" button.  This will download a ZIP file named "booster-rest-http-wildfly-swarm.zip" to your Downloads directory on your laptop/desktop
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/26_MissionDownloadZIP.png" width="800">
 
-9. You will see the "Next Steps" screen
+9. As the final step in this section, you will see the "Next Steps" screen
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/27_MissionNextSteps.png" width="800">
 
-You have completed your first "REST API Level 0" mission and created and downloaded its associated WildfLy Swarm project to your laptop/desktop.
+You have completed your first "REST API Level 0" mission and created and downloaded its associated Wildfly Swarm project to your laptop/desktop.
 
 # D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
+
