@@ -215,6 +215,9 @@ Congratulations! You have successfully used the Red Hat OpenShift Application Ru
 If you would like to inspect the project source code, please use an IDE of your choosing, e.g. Eclipse, IntelliJ, and open the project, which, in the example above, is located at directory ${HOME}/Downloads/booster-rest-http-wildfly-swarm.
 
 Lastly, to learn more, go to:
+
 [Red Hat OpenShift Application Runtimes](https://developers.redhat.com/products/rhoar/overview/)
+
 [WildFly Swarm/Thortail](http://wildfly-swarm.io/)
+
 [Azure](https://azure.microsoft.com/en-us/)
