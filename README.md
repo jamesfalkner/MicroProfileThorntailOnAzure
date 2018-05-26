@@ -6,7 +6,7 @@ Congratulations! You have just received your free Azure trial pass to try Eclips
 
 These instructions are grouped in four sections:
 
-[**A. Redeeming your Azure Pass**](#a-redeeming-your-azure-pass)
+[**A. Redeeming your Azure Pass**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#a-redeeming-your-azure-pass)
 
 [**B. Instantiating an all-in-one OpenShift Origin cluster on Azure**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#b-instantiating-an-all-in-one-openshift-origin-cluster-on-azure)
 
