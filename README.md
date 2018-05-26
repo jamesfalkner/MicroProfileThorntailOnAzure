@@ -192,7 +192,7 @@ You have completed your first "REST API Level 0" mission and created and downloa
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/30_BuildDeployFinished.png" width="800">
 
-4. Go back to your browser tab with the OpenShift Origin console and refresh it.  You will not see the "my-wfs-proj" project listed under the "My Projects" panel.
+4. Go back to your browser tab with the OpenShift Origin console and refresh it.  You will now see the "my-wfs-proj" project listed under the "My Projects" panel.
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/31_ProjOnOpenShiftConsole.png" width="800">
 
