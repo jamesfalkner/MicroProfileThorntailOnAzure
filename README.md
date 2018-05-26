@@ -148,7 +148,7 @@ For Username and Password, the "Admin User" and "Admin Password" you supplied in
 
 3. At this point, if not already logged in, you need to click on the "Log In or Register" button. Enter your valid credentials as indicated on window and click on "LOG IN" button (if you don't have an account, click on "Create one now". Once you create your account, return to this window and log in with your newly created credentials)
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/21_MissionLogin.png" width="800">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/21_MissionLogin.png" width="500">
 
 4. On this next screen, click on "I will build and run locally"
 
@@ -156,14 +156,23 @@ For Username and Password, the "Admin User" and "Admin Password" you supplied in
 
 5. In the missions screen, scroll down until you see the mission "REST API Level 0". Check on the "REST API Level 0" mission and click on the "Next" button
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/23_MissionRESTAPI.png" width="800">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/23_MissionRESTAPI.png" width="500">
+
+6. Select the "WildFly Swarm" runtime tile and then click the "Next" button
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/24_MissionSelectBooster.png" width="800">
 
+7. In the "Project Info" window, accept all the defaults and click on the "Next" button
+
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/25_MissionProjInfo.png" width="800">
+8. In the Review window, click on the "Download as ZIP File" button.  This will download a ZIP file named "booster-rest-http-wildfly-swarm.zip" to your Downloads directory on your laptop/desktop.
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/26_MissionDownloadZIP.png" width="800">
 
+9. You will see the "Next Steps" screen
+
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/27_MissionNextSteps.png" width="800">
+
+You have completed your first "REST API Level 0" mission and created and downloaded its associated WildfLy Swarm project to your laptop/desktop.
 
 # D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
