@@ -116,22 +116,22 @@ The deployment will take 15-20 minutes. Once completed, the notification will di
 
 Click on "Go to resource group" button in the notification above to open up the window for the origin resource group (or you can also click on the "Resource groups" under "Favorites" on the leftmost vertical Azure portal menu, and then click on "origin" to open the origin resource group). You will see the following:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/14_OriginResourceGroup.png" width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/14_OriginResourceGroup.png" width="800">
 
 On the top right of the origin resource group window, you will see a heading "Deployments".  Click on "1 Succeeded" under this heading to see the deployments:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/15_OriginDeployments.png" width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/15_OriginDeployments.png" width="800">
 
 Now, click on the "Microsoft.Template" link to display the contents of the template.  Then click on the "Outputs" to see the URL of the OpenShift Origin console:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/16_OriginOutputs.png" width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/16_OriginOutputs.png" width="800">
 
 At this point, copy the string from the "ORIGINCONSOLE" field, open a browser window and paste the string in the Address field. If your browser warns you about the site being insecure, go ahead and continue to the insecure site.  At this point, you should see the login prompt to log in to the all-in-one OpenShift Origin cluster:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/17_OpenShiftConsoleLogin" width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/17_OpenShiftConsoleLogin.png" width="800">
 
 For Username and Password, the "Admin User" and "Admin Password" you supplied in the template above. Click on "Log In" and you should see:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/18_OpenShiftConsole" width="500">
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/18_OpenShiftConsole.png" width="800">
 
 # C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
