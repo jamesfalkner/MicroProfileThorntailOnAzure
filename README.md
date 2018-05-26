@@ -4,7 +4,15 @@
 
 Congratulations! You have just received your free Azure trial pass to try Eclipse MicroProfile on Azure.
 
-Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShift on Azure:
+These instructions are grouped in three main sections:
+
+A. Redeeming your Azure Pass
+
+B. Instantiating an all-in-one OpenShift Origin cluster on Azure
+
+C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
+
+# A. Redeeming your Azure Pass
 
 1. Open a browser and navigate to: www.microsoftazurepass.com and click on the "Start" button
 
@@ -50,7 +58,8 @@ Follow these instructions to set up and run MicroProfile (Thorntail) on OpenShif
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/11_ReedeemAzurePortal.png" width="700">
 
-12. Now, on to create an all-in-one OpenShift Origin cluster, as follows:
+# B. Instantiating an all-in-one OpenShift Origin cluster on Azure
+
 #### Create a Single VM OpenShift Origin deployment using the Azure Portal
 Please ensure that an account has already been configured before clicking the button below.
 
@@ -101,8 +110,6 @@ A notification will pop up in the top right notifying you of the deployment. Cli
 
 ![OutputsToReceive](images/outputs.png)
 
-#### Thanks to the following individuals for the base template:
-Daniel Falkner
-Glenn West
-Harold Wong
-Ivan McKinley
+**NOTE: Thanks to the following individuals for the base template: Daniel Falkner, Glenn West, Harold Wong, and Ivan McKinley**
+
+# C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project 
