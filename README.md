@@ -8,7 +8,7 @@ These instructions are grouped in four sections:
 
 [**A. Redeeming your Azure Pass**](#a-redeeming-your-azure-pass)
 
-[**B. Instantiating an all-in-one OpenShift Origin cluster on Azure**](#b-instantiating-an-all-in-one-openShift-origin-cluster-on-azure)
+[**B. Instantiating an all-in-one OpenShift Origin cluster on Azure**](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/README.md#b-instantiating-an-all-in-one-openshift-origin-cluster-on-azure)
 
 **C. Using the Red Hat OpenShift Application Runtimes Launcher to generate the WildFly Swarm sample project**
 
