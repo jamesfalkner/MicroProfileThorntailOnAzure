@@ -116,7 +116,7 @@ The deployment will take 15-20 minutes. Once completed, the notification will di
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/13_DeploySucceeded.png" width="500">
 
-Click on "Go to resource group" button in the notification above to open up the window for the origin resource group (or you can also click on the "Resource groups" under "Favorites" on the leftmost vertical Azure portal menu, and then click on "origin" to open the origin resource group). You will see the following:
+Click on "Go to resource group" button in the notification above to open up the window for the origin resource group (or you can also click on the "Resource groups" under "Favorites" on the leftmost vertical Azure portal menu, and then [click](images/36_AzureResourceGroups.png) on "origin" to open the origin resource group). You will see the following:
 
 <img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/14_OriginResourceGroup.png" width="800">
 
