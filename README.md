@@ -177,3 +177,35 @@ You have completed your first "REST API Level 0" mission and created and downloa
 
 # D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
 
+**Note: You need to have "oc" installed on your laptop/desktop for the following instructions. Please refer to [Installing the OpenShift Origin CLI](https://docs.openshift.org/latest/cli_reference/get_started_cli.html) if you need to do so.**
+
+**Note: during this section, if you see a notification saying ["Server connection interrupted"](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/35_ServerConnInterrupted.png) pop up on the OpenShift Origin console, just dismiss it by clicking on the X**
+
+1. Unzip the downloaded ZIP file from the previous section into a directory of your choosing. For the runing example below, the ZIP file was unzipped into a directory named "Downloads". Change directory to "booster-rest-http-wildfly-swarm" and "oc login" to the all-in-one OpenShift Origin cluster running on Azure (the URL for the cluster is the string from the "ORIGINCONSOLE" field from step 2 in section B above):
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/28_CdAndOClogin.png" width="800">
+
+2. Create a new project in the OpenShift Origin cluster called "my-wfs-proj". Creating the project will also set your working project to it. Then issue the command to build, create the container images, deploy and run the project to the cluster: "mvn clean fabric8:deploy -Popenshift", as follows:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/29_CreateProjAndFabric8.png" width="800">
+
+3. After about 15 minutes, you will see the following lines indicating its successful build and deployment:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/30_BuildDeployFinished.png" width="800">
+
+4. Go back to your browser tab with the OpenShift Origin console and refresh it.  You will not see the "my-wfs-proj" project listed under the "My Projects" panel.
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/31_ProjOnOpenShiftConsole.png" width="800">
+
+5. Click on the name of "my-wfs-proj" to open the following window that displays its route to the right of the application name.  A route is the external address to access the project user interface:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/32_ProjRoute.png" width="800">
+
+6. Click on the route (long string that starts with "http:" and ends with ".nip.io". This will open a browser tab with the project "Greeting Service" landing page:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/33_GreetingSvcLandingPage.png" width="800">
+
+7. Enter your name in the field "Name" and click the "Invoke" button.  Under the "Result:" heading, you will see a message that says: "Hello, <name>!", as follows:
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/34_GreetingSvcInvoked.png" width="800">
+
+<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/35_ServerConnInterrupted.png" width="400">
