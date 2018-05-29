@@ -177,7 +177,9 @@ You have completed your first "REST API Level 0" mission and created and downloa
 
 # D. Deploying sample project to all-in-one OpenShift Origin cluster on Azure
 
-**Note: You need to have "oc" installed on your laptop/desktop for the following instructions. Please refer to [Installing the OpenShift Origin CLI](https://docs.openshift.org/latest/cli_reference/get_started_cli.html) if you need to do so.**
+**Requirement 1: You need to have "oc" installed on your laptop/desktop for the following instructions. Please refer to [Installing the OpenShift Origin CLI](https://docs.openshift.org/latest/cli_reference/get_started_cli.html) if you need to do so.**
+
+**Requirement 2: You need to have Maven installed on your laptop/desktop for the following instructions. Please refer to [Installing Apache Maven](https://maven.apache.org/install.html) if you need to do so.**
 
 **Note: during this section, if you see a notification saying ["Server connection interrupted"](https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/35_ServerConnInterrupted.png) pop up on the OpenShift Origin console, just dismiss it by clicking on the X**
 
