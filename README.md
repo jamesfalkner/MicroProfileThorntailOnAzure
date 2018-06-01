@@ -1,6 +1,7 @@
 # Eclipse MicroProfile (WildFly Swarm) on Azure
 
 **NOTE 1: Use Chrome or Firefox for the instructions below. They will not work with Safari**
+
 **NOTE 2: This template creates an ephemeral instance of OpenShift Origin. You are responsible for backing up any data that you want to save while using this instance**
 
 Congratulations! You have just received your free Azure trial pass to try Eclipse MicroProfile on Azure.
