@@ -1,4 +1,4 @@
-# Eclipse MicroProfile (WildFly Swarm) on Azure
+# Eclipse MicroProfile (Thorntail/WildFly Swarm) on Azure
 
 **NOTE 1: Use Chrome or Firefox for the instructions below. They will not work with Safari**
 
