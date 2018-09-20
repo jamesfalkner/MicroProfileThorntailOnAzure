@@ -69,6 +69,7 @@ openshift_master_console_port=8443
 openshift_override_hostname_check=true
 azure_resource_group=${RESOURCEGROUP}
 deployment_type=origin
+openshift_release=v3.9
 ansible_become=true
 openshift_disable_check=memory_availability,disk_availability,docker_storage,package_version,docker_image_availability,package_availability
 openshift_master_default_subdomain=${WILDCARDNIP}
