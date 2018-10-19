@@ -38,11 +38,13 @@ domain=$(grep search /etc/resolv.conf | awk '{print $2}')
 ps -ef | grep allinone.sh > cmdline.out
 
 swapoff -a
+yum install -y httpd-tools
 htpasswd -c -b /etc/origin/master/htpasswd ${AUSERNAME} ${PASSWORD}
 yum install -y wget git net-tools bind-utils yum-utils iptables-services bridge-utils bash-completion kexec-tools sos psacct
 yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sed -i -e "s/^enabled=1/enabled=0/" /etc/yum.repos.d/epel.repo
-yum -y --enablerepo=epel install ansible pyOpenSSL
+yum -y install https://releases.ansible.com/ansible/rpm/release/epel-7-x86_64/ansible-2.6.2-1.el7.ans.noarch.rpm
+yum -y --enablerepo=epel install pyOpenSSL
 mkdir -p /usr/share/ansible
 cd /usr/share/ansible/
 git clone https://github.com/openshift/openshift-ansible
