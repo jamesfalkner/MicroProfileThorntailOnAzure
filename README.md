@@ -66,7 +66,7 @@ These instructions are grouped in four sections:
 
 1. Create a Single VM OpenShift Origin deployment using the Azure Portal
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjamesfalkner%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjamesfalkner%2FMicroProfileThorntailOnAzure%2Fmaster%2Fallinone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
