@@ -40,33 +40,33 @@ These instructions are grouped in four sections:
 
 6. On this screen, click on the "Confirm Microsoft account" button
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/6_RedeemConfirmMSacct.png" width="500">
+<img src="https://github.com/jamesfalkner/MicroProfileThorntailOnAzure/blob/master/images/6_RedeemConfirmMSacct.png" width="500">
 
 7. Enter your Promo Code from your Azure trial pass and click on "Claim your Promo Code" button:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/7_RedeemEnterPromoCode.png" width="500">
+<img src="https://github.com/jamesfalkner/MicroProfileThorntailOnAzure/blob/master/images/7_RedeemEnterPromoCode.png" width="500">
 
 8. Once your Azure trial pass Promo Code is accepted, click on the "Activate" button:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png" width="500">
+<img src="https://github.com/jamesfalkner/MicroProfileThorntailOnAzure/blob/master/images/8_RedeemThankYouAndActivate.png" width="500">
 
 9. The activation process will display the following screen:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/9_RedeemProcessingYourReq.png" width="500">
+<img src="https://github.com/jamesfalkner/MicroProfileThorntailOnAzure/blob/master/images/9_RedeemProcessingYourReq.png" width="500">
 
 10. When the activation process completes, you will see the Azure Pass Agreement screen. Check the "I Agree" checkbox and click on "Sign Up" button
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/10_RedeemAzurePassAgree.png" width="500">
+<img src="https://github.com/jamesfalkner/MicroProfileThorntailOnAzure/blob/master/images/10_RedeemAzurePassAgree.png" width="500">
 
 11. Once your sign-up is processed, you will be re-directed to your Azure Portal:
 
-<img src="https://github.com/cealsair/MicroProfileThorntailOnAzure/blob/master/images/11_ReedeemAzurePortal.png" width="700">
+<img src="https://github.com/jamesfalkner/MicroProfileThorntailOnAzure/blob/master/images/11_ReedeemAzurePortal.png" width="700">
 
 # B. Instantiating an all-in-one OpenShift Origin cluster on Azure
 
 1. Create a Single VM OpenShift Origin deployment using the Azure Portal
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcealsair%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjamesfalkner%2FMicroProfileOnAzure%2Fmaster%2Fallinone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
